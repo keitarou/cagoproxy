@@ -15,6 +15,12 @@ $ tail -f /tmp/hoge.log| jq .
 ```
 
 ```
+$ curl 'http://localhost:8000/README.md'
+$ curl 'http://localhost:8000/README.md'
+$ curl 'http://localhost:8000/README.md'
+```
+
+```
 {
   "level": "info",
   "msg": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'User-Agent: curl/7.54.0' 'http://localhost:8080/README.md'",
